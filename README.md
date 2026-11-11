@@ -8,12 +8,12 @@ This repository is the public distribution of the anymail MCP server: the MCP Re
 |---|---|
 | Endpoint | `https://app.anymail.watch/api/mcp` |
 | Transport | Streamable HTTP, stateless |
-| Auth | `Authorization: Bearer <token>`, a workspace API token (anymail → Settings → Integrations → API tokens) |
+| Auth | OAuth (sign in to anymail in the browser), or `Authorization: Bearer <token>` with a workspace API token (anymail → Settings → Integrations → API keys) |
 | Scope | Exactly what the anymail REST API v1 allows: same validation, workspace isolation and rate limit |
 
 ## Install the Claude Code plugin
 
-The plugin connects the MCP server and adds the skills below. It asks for your API token once and stores it as a sensitive plugin setting, not in a file in your project.
+The plugin connects the MCP server and adds the skills below. After installing, run `/mcp`, select `anymail` and **Authenticate**: you sign in to anymail in the browser and pick the workspace and access level. No API key to copy.
 
 ```
 /plugin marketplace add creathinkone/anymail-mcp-server

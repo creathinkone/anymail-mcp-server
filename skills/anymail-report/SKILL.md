@@ -5,7 +5,7 @@ description: "Use when the user asks how an anymail campaign or the whole outrea
 
 # anymail report
 
-Read-only analysis. Works with a read-only API token.
+Read-only analysis. Read-only access is enough.
 
 ## Flow
 
