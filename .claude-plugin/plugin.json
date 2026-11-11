@@ -1,0 +1,19 @@
+{
+  "name": "anymail",
+  "description": "Cold email outreach from your AI assistant: build campaigns, triage replies, report on results, import prospects and keep sending clean in anymail. Connects the anymail MCP server and adds 6 guided skills.",
+  "version": "1.0.0",
+  "author": { "name": "anymail", "url": "https://anymail.watch" },
+  "homepage": "https://developers.anymail.watch/mcp-server/",
+  "repository": "https://github.com/creathinkone/anymail-mcp-server",
+  "license": "MIT",
+  "keywords": ["cold-email", "outreach", "sales", "prospecting", "deliverability", "mcp"],
+  "userConfig": {
+    "api_token": {
+      "type": "string",
+      "title": "anymail API token",
+      "description": "Workspace API token from anymail: Settings > Integrations > API tokens. A read-only token is enough for reports; building campaigns and replying needs read & write.",
+      "sensitive": true,
+      "required": true
+    }
+  }
+}

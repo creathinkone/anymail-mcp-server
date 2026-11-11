@@ -1,0 +1,9 @@
+{
+  "mcpServers": {
+    "anymail": {
+      "type": "http",
+      "url": "https://app.anymail.watch/api/mcp",
+      "headers": { "Authorization": "Bearer ${user_config.api_token}" }
+    }
+  }
+}

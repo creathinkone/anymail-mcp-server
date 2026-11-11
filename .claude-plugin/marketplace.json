@@ -1,0 +1,15 @@
+{
+  "name": "anymail",
+  "description": "anymail MCP server and guided cold email workflows for Claude Code.",
+  "owner": { "name": "anymail", "url": "https://anymail.watch" },
+  "plugins": [
+    {
+      "name": "anymail",
+      "source": "./",
+      "description": "Build campaigns, triage replies, report, import prospects and manage suppressions in anymail, with confirmation before anything sends email.",
+      "author": { "name": "anymail" },
+      "category": "sales",
+      "homepage": "https://developers.anymail.watch/mcp-server/"
+    }
+  ]
+}
